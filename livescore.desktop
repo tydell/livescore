@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=livescore
+Exec=webapp-container --fullscreen --store-session-cookies --webappUrlPatterns=https?://www.livescore.com/* http://www.livescore.com
+Icon=livescore.png
+Terminal=false
+Type=Application
+X-Ubuntu-Splash-Image=livescore-splash.png
+X-Ubuntu-Splash-Color=#ff6a01
+X-Ubuntu-Touch=true

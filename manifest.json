@@ -1,0 +1,15 @@
+{
+    "name": "livescore.tydell",
+    "description": "Webapp for livescore.com website",
+    "architecture": "all",
+    "title": "livescore",
+    "hooks": {
+        "livescore": {
+            "apparmor": "livescore.apparmor",
+            "desktop":  "livescore.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Marcin Tydelski <marcin.tydelski@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
